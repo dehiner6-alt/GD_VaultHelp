@@ -28,7 +28,7 @@ protected:
             codes = {"Volcano", "River", "Silence", "Darkness", "Hunger", "Givemehelper", "Backontrack"};
         }
 
-        // Listar los códigos con un botón de "Copy" al lado
+        // Listar los códigos con un botón de "Copiar :D" al lado
         float startY = m_size.height - 50.f;
         for (const auto& code : codes) {
             auto label = CCLabelBMFont::create(code.c_str(), "chatFont.fnt");
