@@ -1,0 +1,9 @@
+{
+  "geode": "5.0.0",
+  "version": "1.0.0",
+  "id": "aalezz.vaulthelper",
+  "name": "Vault Helper",
+  "developer": "aalezz",
+  "description": "Un asistente para copiar los códigos de las tres bóvedas de Geometry Dash.",
+  "about": "Añade un botón flotante arriba en cada bóveda para copiar códigos fácilmente."
+}
