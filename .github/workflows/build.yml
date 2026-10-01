@@ -1,12 +1,20 @@
-name: Build Geode Mod
+name: Build Mod
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches:
+      - main
+      - master
   pull_request:
-    branches: [ "main", "master" ]
+    branches:
+      - main
+      - master
 
 jobs:
   build:
     uses: geode-sdk/geode/.github/workflows/build.yml@main
-    
+    permissions:
+      contents: read
+      id-token: write
+      attestations: write
+      
